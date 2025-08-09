@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "env": {
+    "NOTION_CLIENT_ID": "@notion_client_id",
+    "NOTION_CLIENT_SECRET": "@notion_client_secret",
+    "REDIRECT_URI": "@redirect_uri"
+  }
+}
